@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://kit.fontawesome.com/4448c02d5c.js" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- NAVIGATIOPN -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">SHREE</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#skills">My Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#works">My works</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#contact">Contact me</a>
+              </li>
+            </ul>
+            </div>
+        </div>
+      </nav>
+
+      <main class="container mt-5">
+       
+        <!-- HOME SECTION -->
+        <section id="home" class="d-flex justify-content-sm-center justify-content-sm-evenly align-items-center flex-column-reverse gap-3 flex-md-row bg-light">
+           <div class="d-flex flex-column justify-content-sm-center align-items-center justify-content-md-start align-items-md-start">
+               <h5>Hey </h5>
+               <h1>I'm shree</h1>
+               <p>A FrontEnd Web Developer!!</p>
+               <button class="btn btn-primary btn-sm">My Cool Resume</button>
+           </div>
+           <div>
+             <img src="img1.jpg" alt="image" class="rounded-circle" width="400px" height="400px">
+           </div>
+        </section>
+
+        <!-- MY SKILLS SECTION -->
+        <section id="skills" class="mt-5 p-5">
+          <h1 class="text-center text-primary mb-5">My Skill Set</h1>
+          <div class="d-flex justify-content-evenly">
+            <i class="fab fa-html5 fa-7x" style="color: rgb(241, 115, 42);"></i>
+            <i class="fab fa-css3-alt fa-7x" style="color: rgb(62, 82, 197);"></i>
+            <i class="fab fa-bootstrap fa-7x" style="color: rgb(148, 12, 153);"></i>
+          </div>
+       </section>
+
+        <!--MY WORKS SECTION-->
+        <section id="works" class="mt-5 p-5">
+           <h1 class="text-center text-primary mb-5">My Works</h1>
+           <div class="d-flex flex-column flex-md-row justify-content-md-evenly gap-3">
+
+            <div class="card mb-2">
+              <img src="html_code.jpg" class="card-img-top h-75" alt="html">
+              <div class="card-body">
+                <h5 class="card-title">HTML Code</h5>
+                <p class="card-text">Hypertext defines the link between the web pages. A markup language is used to define the text document within tag which defines the structure.</p>
+                <a href="#" class="btn btn-dark">View Source  <i class="fab fa-github"></i></a>
+              </div>
+            </div>
+
+            <div class="card mb-2">
+              <img src="css_code.jpg" class="card-img-top h-75" alt="css">
+              <div class="card-body">
+                <h5 class="card-title">CSS Code</h5>
+                <p class="card-text">CSS stands for Cascading Style Sheets. CSS describes how HTML elements are to be displayed on screen, paper, or in other media.</p>
+                <a href="#" class="btn btn-dark">View Source   <i class="fab fa-github"></i></a>
+              </div>
+            </div>
+
+            <div class="card mb-2">
+              <img src="bootstrap_code.jpg" class="card-img-top h-75" alt="bootstrap">
+              <div class="card-body">
+                <h5 class="card-title">Bootstrap Code</h5>
+                <p class="card-text">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source.</p>
+                <a href="#" class="btn btn-dark">View Source   <i class="fab fa-github"></i></a>
+              </div>
+            </div>
+
+           </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="mt-4 p-4 bg-light">
+          <h1 class="text-center text-primary mb-5">Contact Form</h1>
+          <form>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email address</label>
+              <input type="email" required class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" required placeholder="Enter your amazing message!" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              Submit
+            </button>
+          </form>
+
+        </section>
+
+      </main>
+        
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
